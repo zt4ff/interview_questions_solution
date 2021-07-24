@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zt4ff/interview_questions_solution/issues"
   },
-  "homepage": "https://github.com/zt4ff/interview_questions_solution#readme"
+  "homepage": "https://github.com/zt4ff/interview_questions_solution#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
 }
