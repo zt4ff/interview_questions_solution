@@ -16,10 +16,12 @@ class LinkedListTestCases(unittest.TestCase):
         self.linkedlist.add("third")
         self.linkedlist.add("fourth")
         self.assertEqual(self.linkedlist.size(), 4)
+        self.linkedlist.add("fifth")
+        self.assertEqual(self.linkedlist.size(), 5)
 
     def test_remove_item(self):
-        self.linkedlist.remove("third")
-        self.assertEqual(self.linkedlist.size(), 3)
+        self.linkedlist.remove("second")
+        self.assertEqual(self.linkedlist.size(), 1)
 
 
 if __name__ == '__main__':    
